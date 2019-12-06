@@ -57,6 +57,7 @@ class Home extends Component {
     })
     }
     render() {
+      console.disableYellowBox = true
         return (
             <View style={styles.container}>
             <ScrollView>
@@ -68,9 +69,9 @@ class Home extends Component {
                 <View style={styles.slide}>
                     <Slideshow
                         height={150}
-                        overlay={true}
+                        // overlay={true}
                         arrowSize={0}
-                        indicatorSelectedColor="#4287f5"
+                        indicatorSelectedColor="#f18c8e"
                         titleStyle={{color : "white", fontFamily:'Breeze Personal Use'}}
                         dataSource={this.state.banners}
                         position={this.state.position}

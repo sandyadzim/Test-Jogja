@@ -8,7 +8,7 @@ import * as actionHome from '../redux/actions/actionHome'
 
 
 class Loading extends Component{
-  componentDidMount(){
+  checkToken(){
     setTimeout( async () => {
       const token = await AsyncStorage.getItem('token')
       if (token == null) {
@@ -25,7 +25,8 @@ class Loading extends Component{
             <SafeAreaView style={styles.container}>
               <LinearGradient colors={['#f18c8e','#305f72']} style={styles.gradient}>
               <Image source={require('../img/jogja.png')} style={styles.logo} />
-              <Spinner color='#f18c8e' />
+              {/* <Spinner color='#f18c8e' /> */}
+              <Text>{this.checkToken()}</Text>
               </LinearGradient>                
             </SafeAreaView>
         )

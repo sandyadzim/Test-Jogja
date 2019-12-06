@@ -102,6 +102,7 @@ class Mapp extends Component {
         }
     }
     render() {
+        console.disableYellowBox = true
         const {lat,long} = this.state
         return (
             <View style={styles.container}>

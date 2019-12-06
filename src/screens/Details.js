@@ -19,6 +19,7 @@ class Details extends Component {
         })
     }
     render() {
+        console.disableYellowBox = true
         return (
             <View>
                 <ScrollView>
