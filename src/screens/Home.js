@@ -63,7 +63,7 @@ class Home extends Component {
             <LinearGradient colors={['#f18c8e','#305f72']} style={styles.gradient}>
                 <View style={{flexDirection:'row', justifyContent:'space-between'}}>
                   <Text style={styles.title}>~Let's Holiday~</Text>
-                  <Icon name='user-circle' style={styles.user} onPress={() => this.props.navigation.navigate('Logout')} />
+                  <Icon name='user-circle' style={styles.user} onPress={() => this.props.navigation.navigate('Logout', {prev: 'Home'})} />
                 </View>
                 <View style={styles.slide}>
                     <Slideshow
