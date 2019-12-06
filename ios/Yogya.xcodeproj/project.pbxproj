@@ -34,6 +34,33 @@
 		A45672811FE34235A15761C1 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4C9CBFFA5AA4C48BE19438B /* rubicon-icon-font.ttf */; };
 		1111315403BF414C881A1921 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ECBD0B2AB8644E3B2B11B23 /* SimpleLineIcons.ttf */; };
 		EA4CDC5F13364B20814F3865 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC0ACAD33E9C490CA971D674 /* Zocial.ttf */; };
+		0A2DAED0D8D44544AA2A82EA /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84A86B878C374E83B38A6426 /* AntDesign.ttf */; };
+		C7AA307EF06B42A9A890CE78 /* Breeze Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1226E2C08804DA199DC50D9 /* Breeze Personal Use.ttf */; };
+		F01CA01CA26E47A99A864543 /* BringHeart-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F78B9D0483B419594552CD7 /* BringHeart-Regular.ttf */; };
+		9E0A4933D4014CF6A1952E15 /* BROWN FOXY - Personal Use Only.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A5919EFACF74B4EA99448ED /* BROWN FOXY - Personal Use Only.ttf */; };
+		84A3B13E8C414909A69B53DE /* bulletproof.bb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF6E65EBEC924F128182E6B8 /* bulletproof.bb.ttf */; };
+		B76DCF3DA5264A8EB5B9EB82 /* Calling Heart.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F79D47AA06E4F51BF50E073 /* Calling Heart.ttf */; };
+		9A818F3F28414F308383526A /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83040CFD7CD042EBBDB6B04C /* Entypo.ttf */; };
+		A89769B28655404FBD2E0E67 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94792009D7C545CC8140D924 /* EvilIcons.ttf */; };
+		D3022FD2021A4C5E86BDDF54 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6C81E48603F4480B83FD057 /* Feather.ttf */; };
+		631E7AECF4AB462087A4F6F7 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82B02840B4EE480591751787 /* FontAwesome.ttf */; };
+		2D3DE92B49E943A6BBD93970 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA3AD50D5F8E4973B1E831A3 /* FontAwesome5_Brands.ttf */; };
+		1121BEB66043483BB09E625C /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5939C043A2E349ADAA3DA274 /* FontAwesome5_Regular.ttf */; };
+		C20216DA356E42BFA7EBD862 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451C78512E75404F974C669B /* FontAwesome5_Solid.ttf */; };
+		C5EE56DA4760482AA6554695 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE3FB3B73C974210BBA07C48 /* Fontisto.ttf */; };
+		BB6E49A6883F4279A5B0814B /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5EC636F3854DED8A07261E /* Foundation.ttf */; };
+		2701F111B9F74DDE811C9ECE /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8838EF0ADDA24392B7697B3F /* Ionicons.ttf */; };
+		0D90F7F80BCF4BDAB695017E /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550646E993EB425A875596B6 /* MaterialCommunityIcons.ttf */; };
+		2EEBCEDDB4C2498A89A4716C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF84E61360C54DCF94B5E088 /* MaterialIcons.ttf */; };
+		0725A0968A6A47D0AF7AEAFA /* NCAA Michigan St Spartans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 259CEDCE40724E9189825721 /* NCAA Michigan St Spartans.ttf */; };
+		74C5A45308F54F538A22641A /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26B59E1DFB834F06B35AE3A1 /* Octicons.ttf */; };
+		FBD5C98EFD974F1091C772FC /* Rakoon_PersonalUse.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488E5424D8EE428785FF301C /* Rakoon_PersonalUse.ttf */; };
+		0B71EEE4E79744639C9DC13E /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B96F0F472A6D4E21889812D2 /* Roboto_medium.ttf */; };
+		58AF277B56CA40B0B7C280E5 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66D95460668A4B43B2BBCEC3 /* Roboto.ttf */; };
+		7AF71231045A4051AA91177C /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA51E98AB2F64D688CAFE8DC /* rubicon-icon-font.ttf */; };
+		8448D7FB81CB4533840FECBF /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 271E8AB3492E46608E087184 /* SimpleLineIcons.ttf */; };
+		C83F86AE6AFE4266AD09799B /* SonderSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED641694A8F64981934345D9 /* SonderSans-Black.ttf */; };
+		BFF9F15D902545278B68A447 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64ED24B579A24319BB3237EC /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +115,33 @@
 		B4C9CBFFA5AA4C48BE19438B /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		6ECBD0B2AB8644E3B2B11B23 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		FC0ACAD33E9C490CA971D674 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		84A86B878C374E83B38A6426 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../android/app/src/main/assets/fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1226E2C08804DA199DC50D9 /* Breeze Personal Use.ttf */ = {isa = PBXFileReference; name = "Breeze Personal Use.ttf"; path = "../android/app/src/main/assets/fonts/Breeze Personal Use.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F78B9D0483B419594552CD7 /* BringHeart-Regular.ttf */ = {isa = PBXFileReference; name = "BringHeart-Regular.ttf"; path = "../android/app/src/main/assets/fonts/BringHeart-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A5919EFACF74B4EA99448ED /* BROWN FOXY - Personal Use Only.ttf */ = {isa = PBXFileReference; name = "BROWN FOXY - Personal Use Only.ttf"; path = "../android/app/src/main/assets/fonts/BROWN FOXY - Personal Use Only.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FF6E65EBEC924F128182E6B8 /* bulletproof.bb.ttf */ = {isa = PBXFileReference; name = "bulletproof.bb.ttf"; path = "../android/app/src/main/assets/fonts/bulletproof.bb.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F79D47AA06E4F51BF50E073 /* Calling Heart.ttf */ = {isa = PBXFileReference; name = "Calling Heart.ttf"; path = "../android/app/src/main/assets/fonts/Calling Heart.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83040CFD7CD042EBBDB6B04C /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../android/app/src/main/assets/fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		94792009D7C545CC8140D924 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../android/app/src/main/assets/fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B6C81E48603F4480B83FD057 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../android/app/src/main/assets/fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82B02840B4EE480591751787 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../android/app/src/main/assets/fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA3AD50D5F8E4973B1E831A3 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5939C043A2E349ADAA3DA274 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		451C78512E75404F974C669B /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE3FB3B73C974210BBA07C48 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../android/app/src/main/assets/fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A5EC636F3854DED8A07261E /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../android/app/src/main/assets/fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8838EF0ADDA24392B7697B3F /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../android/app/src/main/assets/fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		550646E993EB425A875596B6 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF84E61360C54DCF94B5E088 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../android/app/src/main/assets/fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		259CEDCE40724E9189825721 /* NCAA Michigan St Spartans.ttf */ = {isa = PBXFileReference; name = "NCAA Michigan St Spartans.ttf"; path = "../android/app/src/main/assets/fonts/NCAA Michigan St Spartans.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26B59E1DFB834F06B35AE3A1 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../android/app/src/main/assets/fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		488E5424D8EE428785FF301C /* Rakoon_PersonalUse.ttf */ = {isa = PBXFileReference; name = "Rakoon_PersonalUse.ttf"; path = "../android/app/src/main/assets/fonts/Rakoon_PersonalUse.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B96F0F472A6D4E21889812D2 /* Roboto_medium.ttf */ = {isa = PBXFileReference; name = "Roboto_medium.ttf"; path = "../android/app/src/main/assets/fonts/Roboto_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66D95460668A4B43B2BBCEC3 /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../android/app/src/main/assets/fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA51E98AB2F64D688CAFE8DC /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../android/app/src/main/assets/fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		271E8AB3492E46608E087184 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../android/app/src/main/assets/fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED641694A8F64981934345D9 /* SonderSans-Black.ttf */ = {isa = PBXFileReference; name = "SonderSans-Black.ttf"; path = "../android/app/src/main/assets/fonts/SonderSans-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64ED24B579A24319BB3237EC /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../android/app/src/main/assets/fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +271,33 @@
 				B4C9CBFFA5AA4C48BE19438B /* rubicon-icon-font.ttf */,
 				6ECBD0B2AB8644E3B2B11B23 /* SimpleLineIcons.ttf */,
 				FC0ACAD33E9C490CA971D674 /* Zocial.ttf */,
+				84A86B878C374E83B38A6426 /* AntDesign.ttf */,
+				F1226E2C08804DA199DC50D9 /* Breeze Personal Use.ttf */,
+				7F78B9D0483B419594552CD7 /* BringHeart-Regular.ttf */,
+				1A5919EFACF74B4EA99448ED /* BROWN FOXY - Personal Use Only.ttf */,
+				FF6E65EBEC924F128182E6B8 /* bulletproof.bb.ttf */,
+				5F79D47AA06E4F51BF50E073 /* Calling Heart.ttf */,
+				83040CFD7CD042EBBDB6B04C /* Entypo.ttf */,
+				94792009D7C545CC8140D924 /* EvilIcons.ttf */,
+				B6C81E48603F4480B83FD057 /* Feather.ttf */,
+				82B02840B4EE480591751787 /* FontAwesome.ttf */,
+				EA3AD50D5F8E4973B1E831A3 /* FontAwesome5_Brands.ttf */,
+				5939C043A2E349ADAA3DA274 /* FontAwesome5_Regular.ttf */,
+				451C78512E75404F974C669B /* FontAwesome5_Solid.ttf */,
+				BE3FB3B73C974210BBA07C48 /* Fontisto.ttf */,
+				0A5EC636F3854DED8A07261E /* Foundation.ttf */,
+				8838EF0ADDA24392B7697B3F /* Ionicons.ttf */,
+				550646E993EB425A875596B6 /* MaterialCommunityIcons.ttf */,
+				CF84E61360C54DCF94B5E088 /* MaterialIcons.ttf */,
+				259CEDCE40724E9189825721 /* NCAA Michigan St Spartans.ttf */,
+				26B59E1DFB834F06B35AE3A1 /* Octicons.ttf */,
+				488E5424D8EE428785FF301C /* Rakoon_PersonalUse.ttf */,
+				B96F0F472A6D4E21889812D2 /* Roboto_medium.ttf */,
+				66D95460668A4B43B2BBCEC3 /* Roboto.ttf */,
+				EA51E98AB2F64D688CAFE8DC /* rubicon-icon-font.ttf */,
+				271E8AB3492E46608E087184 /* SimpleLineIcons.ttf */,
+				ED641694A8F64981934345D9 /* SonderSans-Black.ttf */,
+				64ED24B579A24319BB3237EC /* Zocial.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -377,6 +458,33 @@
 				A45672811FE34235A15761C1 /* rubicon-icon-font.ttf in Resources */,
 				1111315403BF414C881A1921 /* SimpleLineIcons.ttf in Resources */,
 				EA4CDC5F13364B20814F3865 /* Zocial.ttf in Resources */,
+				0A2DAED0D8D44544AA2A82EA /* AntDesign.ttf in Resources */,
+				C7AA307EF06B42A9A890CE78 /* Breeze Personal Use.ttf in Resources */,
+				F01CA01CA26E47A99A864543 /* BringHeart-Regular.ttf in Resources */,
+				9E0A4933D4014CF6A1952E15 /* BROWN FOXY - Personal Use Only.ttf in Resources */,
+				84A3B13E8C414909A69B53DE /* bulletproof.bb.ttf in Resources */,
+				B76DCF3DA5264A8EB5B9EB82 /* Calling Heart.ttf in Resources */,
+				9A818F3F28414F308383526A /* Entypo.ttf in Resources */,
+				A89769B28655404FBD2E0E67 /* EvilIcons.ttf in Resources */,
+				D3022FD2021A4C5E86BDDF54 /* Feather.ttf in Resources */,
+				631E7AECF4AB462087A4F6F7 /* FontAwesome.ttf in Resources */,
+				2D3DE92B49E943A6BBD93970 /* FontAwesome5_Brands.ttf in Resources */,
+				1121BEB66043483BB09E625C /* FontAwesome5_Regular.ttf in Resources */,
+				C20216DA356E42BFA7EBD862 /* FontAwesome5_Solid.ttf in Resources */,
+				C5EE56DA4760482AA6554695 /* Fontisto.ttf in Resources */,
+				BB6E49A6883F4279A5B0814B /* Foundation.ttf in Resources */,
+				2701F111B9F74DDE811C9ECE /* Ionicons.ttf in Resources */,
+				0D90F7F80BCF4BDAB695017E /* MaterialCommunityIcons.ttf in Resources */,
+				2EEBCEDDB4C2498A89A4716C /* MaterialIcons.ttf in Resources */,
+				0725A0968A6A47D0AF7AEAFA /* NCAA Michigan St Spartans.ttf in Resources */,
+				74C5A45308F54F538A22641A /* Octicons.ttf in Resources */,
+				FBD5C98EFD974F1091C772FC /* Rakoon_PersonalUse.ttf in Resources */,
+				0B71EEE4E79744639C9DC13E /* Roboto_medium.ttf in Resources */,
+				58AF277B56CA40B0B7C280E5 /* Roboto.ttf in Resources */,
+				7AF71231045A4051AA91177C /* rubicon-icon-font.ttf in Resources */,
+				8448D7FB81CB4533840FECBF /* SimpleLineIcons.ttf in Resources */,
+				C83F86AE6AFE4266AD09799B /* SonderSans-Black.ttf in Resources */,
+				BFF9F15D902545278B68A447 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import {View, StyleSheet, ScrollView, AsyncStorage, TouchableOpacity, Image} from 'react-native'
-import {Text} from 'native-base'
+import {View, StyleSheet, ScrollView, TouchableOpacity, Image, FlatList} from 'react-native'
+import {Text, Card} from 'native-base'
+import Icon from 'react-native-vector-icons/FontAwesome'
 import Slideshow from 'react-native-image-slider-show';
 import LinearGradient from 'react-native-linear-gradient';
-import {FlatGrid} from 'react-native-super-grid';
 import * as actionHome from '../redux/actions/actionHome'
 import { connect } from 'react-redux'
-// import MapView, {PROVIDER_GOOGLE} from 'react-native-maps'
+
 
 class Home extends Component {
     constructor(props) {
@@ -24,6 +24,16 @@ class Home extends Component {
                 }, {
                 title: 'Pantai Parangtritis',
                 url: 'http://www.erporate.com/bootcamp/img/parangtritis.jpg'
+            }],
+            favourite: [{
+              title: 'Kraton Jogja',
+              image: 'http://www.erporate.com/bootcamp/img/keraton-jogja.jpg'
+            },{
+              title: 'Pantai Baron',
+              image: 'http://www.erporate.com/bootcamp/img/Pantai-Baron-gunung-kidul.jpg'
+            },{
+              title: 'Pantai Indrayanti',
+              image: 'http://www.erporate.com/bootcamp/img/Keelokan-Pantai-Indrayanti-Gunung-Kidul-Jogja.jpg'
             }]
         }
       }
@@ -37,65 +47,83 @@ class Home extends Component {
             }, 3000)
         })
     }
-
-    componentWillMount(){
-        AsyncStorage.getItem('token')
-        this.props.handleGetHome()
+    onHandleDetail(item) {
+      this.props.navigation.navigate('Details', {
+        title: item.nama_pariwisata,
+        alamat: item.alamat_pariwisata,
+        desc: item.detail_pariwisata,
+        gambar: item.gambar_pariwisata,
+        prev: 'Home'
+    })
     }
     render() {
-        const a = this.props.homeLocal.pariwisata
-        console.log(a)
-
         return (
             <View style={styles.container}>
             <ScrollView>
             <LinearGradient colors={['#f18c8e','#305f72']} style={styles.gradient}>
-                <Text style={styles.title}>~Make Your Holiday More Special~</Text>
+                <View style={{flexDirection:'row', justifyContent:'space-between'}}>
+                  <Text style={styles.title}>~Let's Holiday~</Text>
+                  <Icon name='user-circle' style={styles.user} onPress={() => this.props.navigation.navigate('Logout')} />
+                </View>
                 <View style={styles.slide}>
                     <Slideshow
-                        height={200}
+                        height={150}
                         overlay={true}
                         arrowSize={0}
                         indicatorSelectedColor="#4287f5"
-                        titleStyle={{color : "white"}}
+                        titleStyle={{color : "white", fontFamily:'Breeze Personal Use'}}
                         dataSource={this.state.banners}
                         position={this.state.position}
                         onPositionChanged={position => this.setState({ position })}
                     />
                 </View>
-                <View style={{flex:1, marginHorizontal:5, borderRadius:5}}>
-                <FlatGrid
-                        itemDimension={120}
-                        style={styles.grid}
-                        scrollEnabled
-                        items={this.props.homeLocal.pariwisata.data}
-                        renderItem={({ item, index }) => (
-                            <View>
-                                <TouchableOpacity>
-                                    <View style={styles.viewGrid}>
-                                        <Text style={styles.txtGrid}>{item.nama_pariwisata}</Text>
-                                        <Image source={{uri : item.gambar_pariwisata}} style={{width:150, height:150}} />
-                                    </View>
-                                </TouchableOpacity>
-                                
-                            </View>
-                            
-                        )}
-                        />
+                <View>
+                  <Text style={styles.titleCard}>--------------</Text>
+                <Text style={styles.titleCard}>Recommended</Text>
+                  <FlatList 
+                    data={this.state.favourite}
+                    horizontal={true}
+                    showsHorizontalScrollIndicator={false}
+                    renderItem={({item}) =>
+                    <Card style={styles.card}>
+                        <TouchableOpacity>
+                          <Image style={styles.fav} source={{uri : item.image}} />
+                        </TouchableOpacity>
+                        <Text style={styles.cardFav}>{item.title}</Text>
+                    </Card>
+                      
+                  }
+                  keyExtractor={(item, index) => index.toString()}
+                  />
                 </View>
                 <View>
-                      {/* <MapView
-                        provider={PROVIDER_GOOGLE}
-                        style={styles.map}
-                        region={{
-                          latitude: 33.78825,
-                          longitude: -122.4324,
-                          latitudeDelta: 0.015,
-                          longitudeDelta: 0.0121
-                        }}
-                      >
-                      </MapView> */}
+                  <Text style={styles.titleCard2}>---------------</Text>
+                  <Text style={styles.titleCard2}>All You Can Trip</Text>
+                  <FlatList
+                    data={this.props.homeLocal.pariwisata.data}
+                    horizontal={false}
+                    showsVerticalScrollIndicator={false}
+                    renderItem={({item}) =>
+                    <Card style={styles.cardAll}>
+                          <Image style={styles.all} source={{uri : item.gambar_pariwisata}} />
+                        <View style={{width:180}}>
+                          <Text style={styles.titleCardAll}>{item.nama_pariwisata}</Text>
+                          <Icon name='map-marker' style={{color:'white', fontSize:24, marginTop:20}}>
+                            <Text style={{color:'white', fontFamily:'SonderSans-Black'}}> Yogyakarta</Text>
+                          </Icon>
+                        </View>
+                        {console.log(item)}
+                        <TouchableOpacity style={styles.next} onPress={() => this.onHandleDetail(item)}>
+                            <Icon name='arrow-circle-right' style={styles.nextIcon} />
+                        </TouchableOpacity>
+                    </Card>
+                      
+                  }
+                  keyExtractor={(item, index) => index.toString()}
+                  
+                  />
                 </View>
+                <Text style={{fontFamily:'SonderSans-Black', color:'white', textAlign:'center'}}>Copyright@SKYLAN</Text>
                 </LinearGradient>
                 </ScrollView>
             </View>
@@ -117,38 +145,112 @@ const mapStateToProps = state => {
   
 
 const styles = StyleSheet.create({
-    container : {
-      flex: 1,
-    },
-    gradient:{
-      flex:1
-    },
-    logo:{
-      width:220,
-      height:200,
-      marginTop:20
-    },
-    title:{
-      fontSize:20,
-      fontFamily: 'Breeze Personal Use',
-      textAlign:'center',
-      marginTop:10
-    },
-    form:{
-      flex:2,
-      marginTop:20,
-      marginHorizontal: 20
-    },
-    slide:{
-        marginHorizontal:3,
-        marginVertical:10,
-        borderColor:'black',
-        borderWidth:2,
-        borderRadius:5
-    },
-    map:{
-      ...StyleSheet.absoluteFillObject,
-    }
+  container : {
+    flex: 1,
+  },
+  gradient:{
+    flex:1
+  },
+  logo:{
+    width:220,
+    height:200,
+    marginTop:20
+  },
+  user:{
+    color:'white',
+    fontSize:32,
+    marginRight:15,
+    marginTop:5
+  },
+  title:{
+    fontSize:20,
+    fontFamily: 'Breeze Personal Use',
+    textAlign:'center',
+    marginTop:10,
+    color:'white',
+    marginLeft:80,
+    width:200
+  },
+  form:{
+    flex:2,
+    marginTop:20,
+    marginHorizontal: 20
+  },
+  slide:{
+      marginHorizontal:3,
+      marginTop:10,
+      borderColor:'black',
+      borderWidth:2,
+      borderRadius:5
+  },
+  map:{
+    ...StyleSheet.absoluteFillObject,
+  },
+  card:{
+    borderRadius:15,
+    marginLeft: 8,
+    backgroundColor:'#305f72',
+    borderColor:'white'
+  },
+  cardAll:{
+    flexDirection:'row',
+    justifyContent:'space-between',
+    borderRadius:15,
+    marginLeft: 20,
+    marginRight:20,
+    backgroundColor:'#305f72',
+    borderColor:'white'
+  },
+  cardFav:{
+    textAlign:'center', 
+    fontFamily: 'Breeze Personal Use', 
+    color:'white'
+  },
+  fav:{
+    width:130, 
+    height:150, 
+    borderRadius:15,
+    borderWidth:1,
+    borderColor:'white'
+  },
+  all:{
+    width:100,
+    height:100,
+    borderRadius:15,
+    borderColor:'white',
+    borderWidth:1
+  },
+  titleCard:{
+    fontFamily:'Breeze Personal Use', 
+    color: 'white', 
+    fontSize:20, 
+    // marginTop:5,
+    textAlign:'center'
+  },
+  titleCard2:{
+    fontFamily:'Breeze Personal Use', 
+    color: 'white', 
+    fontSize:20, 
+    // marginTop:15,
+    textAlign:'center'
+  },
+  titleCardAll:{
+    fontFamily: 'Breeze Personal Use', 
+    color:'white',
+    marginTop:5
+  },
+  next:{
+    backgroundColor:'#f18c8e',
+    borderTopRightRadius:15,
+    borderBottomRightRadius:15,
+  },
+  nextIcon:{
+    fontSize:32,
+    marginTop:35,
+    paddingLeft:3,
+    color:'white',
+    marginRight:3
+  }
   })
 
 // export default Home;
